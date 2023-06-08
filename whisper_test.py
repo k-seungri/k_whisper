@@ -2,7 +2,7 @@ import whisper
 import os
 import time
 
-model = whisper.load_model("large")
+model = whisper.load_model("medium")
 # # audio = whisper.load_audio("test_wav.wav")
 # result = model.transcribe("test_wav.wav",language='korean')
 # print(result["text"])
